@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Spinner, List, Col, Row} from 'reactstrap';
+import {Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Spinner, List, Col, Row, Form, FormGroup, Label, Input} from 'reactstrap';
 import { defaultData } from './defaultData';
 import './App.css';
 
@@ -20,9 +20,33 @@ class ResultCards extends React.Component {
         })
     }
 
+    handleSubmit = () => {
+        alert('Submitted Form')
+    }
+
     render() {
         return (
             <div className="container-fluid">
+                <Form onSubmit={this.handleSubmit} inline>
+                    <FormGroup>
+                            <Label for="postal_code" className='justify-content-lg-left'><strong>Postal Code</strong></Label>
+                            <Input id="postal_code" name="postal_code" placeholder="List of postal codes separated by semi-colon(;)" type="text" />
+                    </FormGroup>
+                    <FormGroup>
+                            <Label for="wind"><strong>Wind</strong></Label>
+                            <Input id="wind" name="wind" type="range" />
+                    </FormGroup>
+                    <FormGroup>
+                            <Label for="rainfall"><strong>Rainfall</strong></Label>
+                            <Input id="rainfall" name="rainfall" type="range" />
+                    </FormGroup>
+                    <Row>
+                        <Col md={3}></Col>
+                        <Col md={6}><Input type="submit" value="Submit" className='btn btn-success'></Input></Col>
+                        <Col md={3}></Col>
+                    </Row>
+                </Form>
+                <hr />
                 {this.state.results.length === 0 ? <Spinner /> :
                    this.state.results.map((item) => {
                        return(
@@ -46,6 +70,7 @@ class ResultCards extends React.Component {
                                     </Card>
                                 </Col>
                                 <Col md="3"></Col>
+                                {' '}
                             </Row>
                        )
                     })
