@@ -1,5 +1,4 @@
 import React from 'react';
-import {Card, CardBody, CardTitle, CardSubtitle, CardText, Button, Spinner, List, Col, Row, Form, FormGroup, Label, Input} from 'reactstrap';
 import { defaultData } from './defaultData';
 import './App.css';
 
