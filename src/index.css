@@ -23,7 +23,11 @@ li {
 
 .navlink {
   text-decoration: none;
-  color: "white";
+  color: white;
+}
+
+#logo-title {
+  color: gray;
 }
 
 #wind,

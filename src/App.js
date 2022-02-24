@@ -13,9 +13,9 @@ function App() {
         <ThemeProvider theme={darkTheme}>
           <AppBar position="static" color="primary" fullWidth={true}>
           <Toolbar>
-            <Typography noWrap variant="h6" component="div">Team Farming</Typography>&nbsp;
-            <Typography variant="body" component="div" sx={{ minWidth: 80 }}><Link to="/" className="navlink">About</Link></Typography>
-            <Typography variant="body" component="div" sx={{ minWidth: 80 }}><Link to="/results" className="navlink">Results</Link></Typography>
+            <Typography noWrap variant="h6" component="div" id="logo-title">Team Farming</Typography>&nbsp;
+            <Typography variant="body" component="div" sx={{ minWidth: 80 }}><Link className="navlink" to="/">About</Link></Typography>
+            <Typography variant="body" component="div" sx={{ minWidth: 80 }}><Link className="navlink" to="/results">Results</Link></Typography>
           </Toolbar>
           </AppBar>
           <br />
