@@ -1,14 +1,7 @@
 import React from 'react';
 import { defaultData } from './defaultData';
 import './App.css';
-import Container from '@mui/material/Container';
-import CircularProgress from '@mui/material/CircularProgress';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
+import { Container, CircularProgress, Card, CardHeader, CardContent, CardActions, Button, Typography, List, ListItem, ListItemText } from '@mui/material';
 
 class ResultCards extends React.Component {
     constructor(props) {
@@ -57,19 +50,23 @@ class ResultCards extends React.Component {
                 {this.state.results.length === 0 ? <CircularProgress /> :
                    this.state.results.map((item) => {
                        return(
-                           <React.Fragment>
-                                <Card raised={true}  key={item["Id"]}>
+                           <React.Fragment key={item["Id"]}>
+                                <Card raised={true}>
+                                    <CardHeader
+                                        title={item["Locality, Sub-locality, Area"]}
+                                        subheader={`Zone: ${item["Zone"]}, Postal Code: ${item["Postal Code"]}`}
+                                    >
+                                    </CardHeader>
                                     <CardContent>
-                                        <Typography variant="h5" gutterBottom>{item["Locality, Sub-locality, Area"]}</Typography>
-                                        <Typography variant="body" paragraph={true} align="justify" gutterBottom>
-                                            <strong>Zone:</strong> {item["Zone"]}, <strong>Postal Code:</strong> {item["Postal Code"]}
-                                        </Typography>
                                         <Typography variant="body" paragraph={true} align="left" gutterBottom>
                                             <List>
                                                 <ListItem><ListItemText><strong>Wind: </strong>{item["Wind"]}</ListItemText></ListItem>
                                                 <ListItem><ListItemText><strong>Rainfall: </strong>{item["Rainfall"]}</ListItemText></ListItem>
                                             </List>
                                         </Typography>
+                                        <CardActions>
+                                            <Button variant="contained" color="info">Explore</Button>
+                                        </CardActions>
                                     </CardContent>
                                 </Card>
                                 <br />

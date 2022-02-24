@@ -1,10 +1,6 @@
 import React from 'react';
 import './App.css';
-import Container from '@mui/material/Container';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import {Container, AppBar,Toolbar,Typography, ThemeProvider, createTheme} from '@mui/material';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import About from './About'
 import ResultCards from './ResultsCards';

@@ -1,10 +1,4 @@
-import Container from '@mui/material/Container';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
+import {Container, Card, CardContent, Typography, List, ListItem, ListItemText} from '@mui/material';
 import React from 'react';
 import './App.css';
 

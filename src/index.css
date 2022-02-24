@@ -26,6 +26,10 @@ li {
   color: "white";
 }
 
+.MuiCardHeader-title {
+  color: #0f9015;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
