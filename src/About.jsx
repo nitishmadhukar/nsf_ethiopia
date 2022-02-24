@@ -1,4 +1,4 @@
-import { Container, Divider } from '@mui/material';
+import Container from '@mui/material/Container';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -12,7 +12,7 @@ function About() {
     return (
         <Container maxWidth="sm">
             <Typography variant="h4" gutterBottom>Team Farming - Natural Sequence Farming</Typography>
-            <Divider />
+            <hr />
             <Card raised={true}>
                 <CardContent>
                     <Typography variant="h5" gutterBottom>Who Is Tarwyn Park?</Typography>

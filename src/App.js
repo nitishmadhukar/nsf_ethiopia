@@ -3,13 +3,11 @@ import './App.css';
 import Container from '@mui/material/Container';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 import Typography from '@mui/material/Typography';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import About from './About'
-// import ResultCards from './ResultsCards';
+import ResultCards from './ResultsCards';
 
 function App() {
   return (
@@ -28,7 +26,7 @@ function App() {
         </ThemeProvider>
       </Container>
         <Routes>
-            {/* <Route exact path="/results" element={<ResultCards />}></Route> */}
+            <Route exact path="/results" element={<ResultCards />}></Route>
             <Route exact path="/" element={<About />}></Route>
         </Routes>
       </div>
