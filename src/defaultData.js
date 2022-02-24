@@ -5,8 +5,8 @@ export const defaultData = [
     "Zone": "Addis Ababa Zone 1",
     "Locality, Sub-locality, Area": "Addis Ababa, Addis Ababa Stadium",
     "Postal Code": 1000,
-    "Rainfall": 4.94,
-    "Wind": 0.4
+    "Rainfall": 100,
+    "Wind": 40
   },
   {
     "Id": 2,
@@ -14,8 +14,8 @@ export const defaultData = [
     "Zone": "Addis Ababa Zone 6",
     "Locality, Sub-locality, Area": "Ak'ak'i Besek'a",
     "Postal Code": 1230,
-    "Rainfall": 4.46,
-    "Wind": 1.77
+    "Rainfall": 32,
+    "Wind": 91
   },
   {
     "Id": 3,
@@ -23,8 +23,8 @@ export const defaultData = [
     "Zone": "Dire Dawa",
     "Locality, Sub-locality, Area": "Melka Jebti",
     "Postal Code": 3020,
-    "Rainfall": 7.96,
-    "Wind": 9.41
+    "Rainfall": 25,
+    "Wind": 32
   },
   {
     "Id": 4,
@@ -32,8 +32,8 @@ export const defaultData = [
     "Zone": "Dire Dawa",
     "Locality, Sub-locality, Area": "Alemaya",
     "Postal Code": 3220,
-    "Rainfall": 0.72,
-    "Wind": 3.7
+    "Rainfall": 56,
+    "Wind": 5
   },
   {
     "Id": 5,
@@ -41,8 +41,8 @@ export const defaultData = [
     "Zone": "Dire Dawa",
     "Locality, Sub-locality, Area": "Dire Dawa",
     "Postal Code": 3000,
-    "Rainfall": 7.83,
-    "Wind": 1.15
+    "Rainfall": 6,
+    "Wind": 18
   },
   {
     "Id": 6,
@@ -50,8 +50,8 @@ export const defaultData = [
     "Zone": "Afar Zone 1",
     "Locality, Sub-locality, Area": "Afambo",
     "Postal Code": 7260,
-    "Rainfall": 4.56,
-    "Wind": 1.93
+    "Rainfall": 68,
+    "Wind": 38
   },
   {
     "Id": 7,
@@ -59,8 +59,8 @@ export const defaultData = [
     "Zone": "Afar Zone 3",
     "Locality, Sub-locality, Area": "Trena",
     "Postal Code": 7240,
-    "Rainfall": 4.29,
-    "Wind": 7.32
+    "Rainfall": 82,
+    "Wind": 10
   },
   {
     "Id": 8,
@@ -68,8 +68,8 @@ export const defaultData = [
     "Zone": "Afar Zone 4",
     "Locality, Sub-locality, Area": "Didigsala",
     "Postal Code": 7220,
-    "Rainfall": 1.07,
-    "Wind": 5.35
+    "Rainfall": 42,
+    "Wind": 5
   },
   {
     "Id": 9,
@@ -77,8 +77,8 @@ export const defaultData = [
     "Zone": "Afar Zone 4",
     "Locality, Sub-locality, Area": "Sifani",
     "Postal Code": 7220,
-    "Rainfall": 4.7,
-    "Wind": 1.67
+    "Rainfall": 62,
+    "Wind": 60
   },
   {
     "Id": 10,
@@ -86,8 +86,8 @@ export const defaultData = [
     "Zone": "Agew Awi",
     "Locality, Sub-locality, Area": "Addis kidan",
     "Postal Code": 6040,
-    "Rainfall": 2.95,
-    "Wind": 8.4
+    "Rainfall": 85,
+    "Wind": 97
   },
   {
     "Id": 11,
@@ -95,8 +95,8 @@ export const defaultData = [
     "Zone": "Agew Awi",
     "Locality, Sub-locality, Area": "Adis K'Idame",
     "Postal Code": 6040,
-    "Rainfall": 9.63,
-    "Wind": 8.66
+    "Rainfall": 59,
+    "Wind": 6
   },
   {
     "Id": 12,
@@ -104,8 +104,8 @@ export const defaultData = [
     "Zone": "Agew Awi",
     "Locality, Sub-locality, Area": "Dangila",
     "Postal Code": 6040,
-    "Rainfall": 5.63,
-    "Wind": 2.6
+    "Rainfall": 2,
+    "Wind": 42
   },
   {
     "Id": 13,
@@ -113,8 +113,8 @@ export const defaultData = [
     "Zone": "Agew Awi",
     "Locality, Sub-locality, Area": "Enjebara",
     "Postal Code": 6040,
-    "Rainfall": 6.72,
-    "Wind": 9.47
+    "Rainfall": 94,
+    "Wind": 98
   },
   {
     "Id": 14,
@@ -122,8 +122,8 @@ export const defaultData = [
     "Zone": "Semen Wello",
     "Locality, Sub-locality, Area": "Hamusit",
     "Postal Code": 7220,
-    "Rainfall": 5.29,
-    "Wind": 5.6
+    "Rainfall": 56,
+    "Wind": 95
   },
   {
     "Id": 15,
@@ -131,8 +131,8 @@ export const defaultData = [
     "Zone": "Wag Hemra",
     "Locality, Sub-locality, Area": "Abergele",
     "Postal Code": 6200,
-    "Rainfall": 2.41,
-    "Wind": 6.88
+    "Rainfall": 32,
+    "Wind": 61
   },
   {
     "Id": 16,
@@ -140,8 +140,8 @@ export const defaultData = [
     "Zone": "Asosa",
     "Locality, Sub-locality, Area": "Abatimbo el Gumas",
     "Postal Code": 5220,
-    "Rainfall": 5.43,
-    "Wind": 9.26
+    "Rainfall": 37,
+    "Wind": 11
   },
   {
     "Id": 17,
@@ -149,8 +149,8 @@ export const defaultData = [
     "Zone": "Asosa",
     "Locality, Sub-locality, Area": "Asosa",
     "Postal Code": 5220,
-    "Rainfall": 7.49,
-    "Wind": 7.47
+    "Rainfall": 29,
+    "Wind": 62
   },
   {
     "Id": 18,
@@ -158,8 +158,8 @@ export const defaultData = [
     "Zone": "Asosa",
     "Locality, Sub-locality, Area": "Asosa, Asosa Airport",
     "Postal Code": 5220,
-    "Rainfall": 5.74,
-    "Wind": 0.55
+    "Rainfall": 71,
+    "Wind": 25
   },
   {
     "Id": 19,
@@ -167,8 +167,8 @@ export const defaultData = [
     "Zone": "Asosa",
     "Locality, Sub-locality, Area": "Bambishi",
     "Postal Code": 5220,
-    "Rainfall": 8.19,
-    "Wind": 4.03
+    "Rainfall": 15,
+    "Wind": 59
   },
   {
     "Id": 20,
@@ -176,8 +176,8 @@ export const defaultData = [
     "Zone": "Metekel",
     "Locality, Sub-locality, Area": "Guba",
     "Postal Code": 6060,
-    "Rainfall": 9.56,
-    "Wind": 5.92
+    "Rainfall": 24,
+    "Wind": 69
   },
   {
     "Id": 21,
@@ -185,8 +185,8 @@ export const defaultData = [
     "Zone": "Metekel",
     "Locality, Sub-locality, Area": "Omedla",
     "Postal Code": 6060,
-    "Rainfall": 9.18,
-    "Wind": 7.38
+    "Rainfall": 48,
+    "Wind": 50
   },
   {
     "Id": 22,
@@ -194,8 +194,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 1",
     "Locality, Sub-locality, Area": "Gambela",
     "Postal Code": 5440,
-    "Rainfall": 2.76,
-    "Wind": 5.99
+    "Rainfall": 5,
+    "Wind": 85
   },
   {
     "Id": 23,
@@ -203,8 +203,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 1",
     "Locality, Sub-locality, Area": "Gambela, Gambela Airport",
     "Postal Code": 5440,
-    "Rainfall": 2.18,
-    "Wind": 2.85
+    "Rainfall": 58,
+    "Wind": 45
   },
   {
     "Id": 24,
@@ -212,8 +212,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 1",
     "Locality, Sub-locality, Area": "Gilawo",
     "Postal Code": 5440,
-    "Rainfall": 4.59,
-    "Wind": 5.26
+    "Rainfall": 23,
+    "Wind": 21
   },
   {
     "Id": 25,
@@ -221,8 +221,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 1",
     "Locality, Sub-locality, Area": "Itang",
     "Postal Code": 5440,
-    "Rainfall": 0.95,
-    "Wind": 6.36
+    "Rainfall": 56,
+    "Wind": 36
   },
   {
     "Id": 26,
@@ -230,8 +230,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 3",
     "Locality, Sub-locality, Area": "Tirgol",
     "Postal Code": 5440,
-    "Rainfall": 9.59,
-    "Wind": 5.44
+    "Rainfall": 48,
+    "Wind": 78
   },
   {
     "Id": 27,
@@ -239,8 +239,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 3",
     "Locality, Sub-locality, Area": "Tori",
     "Postal Code": 5440,
-    "Rainfall": 7.39,
-    "Wind": 8.56
+    "Rainfall": 4,
+    "Wind": 87
   },
   {
     "Id": 28,
@@ -248,8 +248,8 @@ export const defaultData = [
     "Zone": "Gambela Zone 3",
     "Locality, Sub-locality, Area": "Ugat",
     "Postal Code": 5440,
-    "Rainfall": 1.59,
-    "Wind": 8.37
+    "Rainfall": 3,
+    "Wind": 79
   },
   {
     "Id": 29,
@@ -257,8 +257,8 @@ export const defaultData = [
     "Zone": "Harari",
     "Locality, Sub-locality, Area": "Harar",
     "Postal Code": 3200,
-    "Rainfall": 8.89,
-    "Wind": 3.55
+    "Rainfall": 64,
+    "Wind": 72
   },
   {
     "Id": 30,
@@ -266,8 +266,8 @@ export const defaultData = [
     "Zone": "Harari",
     "Locality, Sub-locality, Area": "Harar, Harar Jugol the Fortified Historic Town",
     "Postal Code": 3200,
-    "Rainfall": 6.28,
-    "Wind": 1.13
+    "Rainfall": 38,
+    "Wind": 28
   },
   {
     "Id": 31,
@@ -275,8 +275,8 @@ export const defaultData = [
     "Zone": "Harari",
     "Locality, Sub-locality, Area": "Harer",
     "Postal Code": 3200,
-    "Rainfall": 3.81,
-    "Wind": 6.03
+    "Rainfall": 45,
+    "Wind": 65
   },
   {
     "Id": 32,
@@ -284,8 +284,8 @@ export const defaultData = [
     "Zone": "Harari",
     "Locality, Sub-locality, Area": "Harer, Harrar Bira Stadium",
     "Postal Code": 3200,
-    "Rainfall": 5.2,
-    "Wind": 3.47
+    "Rainfall": 94,
+    "Wind": 29
   },
   {
     "Id": 33,
@@ -293,8 +293,8 @@ export const defaultData = [
     "Zone": "Arssi",
     "Locality, Sub-locality, Area": "Abomsa",
     "Postal Code": 2040,
-    "Rainfall": 2.5,
-    "Wind": 4.59
+    "Rainfall": 32,
+    "Wind": 40
   },
   {
     "Id": 34,
@@ -302,8 +302,8 @@ export const defaultData = [
     "Zone": "Arssi",
     "Locality, Sub-locality, Area": "Adele",
     "Postal Code": 2040,
-    "Rainfall": 2.2,
-    "Wind": 2.53
+    "Rainfall": 59,
+    "Wind": 47
   },
   {
     "Id": 35,
@@ -311,8 +311,8 @@ export const defaultData = [
     "Zone": "Arssi",
     "Locality, Sub-locality, Area": "Agere Sisay",
     "Postal Code": 2140,
-    "Rainfall": 8.32,
-    "Wind": 6.96
+    "Rainfall": 42,
+    "Wind": 44
   },
   {
     "Id": 36,
@@ -320,8 +320,8 @@ export const defaultData = [
     "Zone": "Arssi",
     "Locality, Sub-locality, Area": "Asasa",
     "Postal Code": 2120,
-    "Rainfall": 6.04,
-    "Wind": 9.26
+    "Rainfall": 14,
+    "Wind": 63
   },
   {
     "Id": 37,
@@ -329,8 +329,8 @@ export const defaultData = [
     "Zone": "Arssi",
     "Locality, Sub-locality, Area": "Bekeksa",
     "Postal Code": 2040,
-    "Rainfall": 7.38,
-    "Wind": 1.07
+    "Rainfall": 21,
+    "Wind": 72
   },
   {
     "Id": 38,
@@ -338,8 +338,8 @@ export const defaultData = [
     "Zone": "Semen Shewa",
     "Locality, Sub-locality, Area": "Golje Giyorgis Bete Kiristyan",
     "Postal Code": 1000,
-    "Rainfall": 0.96,
-    "Wind": 1.39
+    "Rainfall": 84,
+    "Wind": 38
   },
   {
     "Id": 39,
@@ -347,8 +347,8 @@ export const defaultData = [
     "Zone": "Semen Shewa",
     "Locality, Sub-locality, Area": "Muke T'uri",
     "Postal Code": 1000,
-    "Rainfall": 1.36,
-    "Wind": 3.56
+    "Rainfall": 65,
+    "Wind": 19
   },
   {
     "Id": 40,
@@ -356,8 +356,8 @@ export const defaultData = [
     "Zone": "Semen Shewa",
     "Locality, Sub-locality, Area": "Sululta",
     "Postal Code": 1000,
-    "Rainfall": 8.73,
-    "Wind": 1.93
+    "Rainfall": 33,
+    "Wind": 75
   },
   {
     "Id": 41,
@@ -365,8 +365,8 @@ export const defaultData = [
     "Zone": "Semen Shewa",
     "Locality, Sub-locality, Area": "Tulu Milki",
     "Postal Code": 1000,
-    "Rainfall": 5.19,
-    "Wind": 8.85
+    "Rainfall": 41,
+    "Wind": 11
   },
   {
     "Id": 42,
@@ -374,8 +374,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "Bargheile",
     "Postal Code": 3080,
-    "Rainfall": 2.15,
-    "Wind": 6.55
+    "Rainfall": 30,
+    "Wind": 0
   },
   {
     "Id": 43,
@@ -383,8 +383,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "Busle",
     "Postal Code": 3080,
-    "Rainfall": 6.22,
-    "Wind": 9.47
+    "Rainfall": 70,
+    "Wind": 6
   },
   {
     "Id": 44,
@@ -392,8 +392,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "El Bi'oba",
     "Postal Code": 3080,
-    "Rainfall": 4.97,
-    "Wind": 6.35
+    "Rainfall": 2,
+    "Wind": 56
   },
   {
     "Id": 45,
@@ -401,8 +401,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "El K'oran",
     "Postal Code": 3080,
-    "Rainfall": 1.92,
-    "Wind": 3.82
+    "Rainfall": 94,
+    "Wind": 91
   },
   {
     "Id": 46,
@@ -410,8 +410,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "Ferfer",
     "Postal Code": 3080,
-    "Rainfall": 7.78,
-    "Wind": 0.34
+    "Rainfall": 45,
+    "Wind": 37
   },
   {
     "Id": 47,
@@ -419,8 +419,8 @@ export const defaultData = [
     "Zone": "Afder",
     "Locality, Sub-locality, Area": "Godder",
     "Postal Code": 3080,
-    "Rainfall": 9.11,
-    "Wind": 6.32
+    "Rainfall": 17,
+    "Wind": 71
   },
   {
     "Id": 48,
@@ -428,8 +428,8 @@ export const defaultData = [
     "Zone": "Warder",
     "Locality, Sub-locality, Area": "Welwel",
     "Postal Code": 3120,
-    "Rainfall": 2.88,
-    "Wind": 9.48
+    "Rainfall": 32,
+    "Wind": 11
   },
   {
     "Id": 49,
@@ -437,8 +437,8 @@ export const defaultData = [
     "Zone": "Warder",
     "Locality, Sub-locality, Area": "Werder",
     "Postal Code": 3120,
-    "Rainfall": 2.94,
-    "Wind": 6.32
+    "Rainfall": 84,
+    "Wind": 96
   },
   {
     "Id": 50,
@@ -446,8 +446,8 @@ export const defaultData = [
     "Zone": "Amaro Special Woreda",
     "Locality, Sub-locality, Area": "Derba",
     "Postal Code": 4400,
-    "Rainfall": 4.77,
-    "Wind": 6.79
+    "Rainfall": 31,
+    "Wind": 90
   },
   {
     "Id": 51,
@@ -455,8 +455,8 @@ export const defaultData = [
     "Zone": "Bench Maji",
     "Locality, Sub-locality, Area": "Bambu",
     "Postal Code": 5060,
-    "Rainfall": 3.13,
-    "Wind": 4.4
+    "Rainfall": 50,
+    "Wind": 15
   },
   {
     "Id": 52,
@@ -464,8 +464,8 @@ export const defaultData = [
     "Zone": "Bench Maji",
     "Locality, Sub-locality, Area": "Bebeka",
     "Postal Code": 5060,
-    "Rainfall": 1.71,
-    "Wind": 5.97
+    "Rainfall": 12,
+    "Wind": 72
   },
   {
     "Id": 53,
@@ -473,8 +473,8 @@ export const defaultData = [
     "Zone": "Bench Maji",
     "Locality, Sub-locality, Area": "Bendi",
     "Postal Code": 5140,
-    "Rainfall": 8.59,
-    "Wind": 5.61
+    "Rainfall": 85,
+    "Wind": 73
   },
   {
     "Id": 54,
@@ -482,8 +482,8 @@ export const defaultData = [
     "Zone": "Bench Maji",
     "Locality, Sub-locality, Area": "Chele",
     "Postal Code": 5060,
-    "Rainfall": 8.61,
-    "Wind": 0.79
+    "Rainfall": 31,
+    "Wind": 92
   },
   {
     "Id": 55,
@@ -491,8 +491,8 @@ export const defaultData = [
     "Zone": "Bench Maji",
     "Locality, Sub-locality, Area": "Jemu",
     "Postal Code": 5060,
-    "Rainfall": 7.57,
-    "Wind": 8.61
+    "Rainfall": 76,
+    "Wind": 2
   },
   {
     "Id": 56,
@@ -500,8 +500,8 @@ export const defaultData = [
     "Zone": "Semen Omo",
     "Locality, Sub-locality, Area": "Tarch'a Sodo",
     "Postal Code": 4620,
-    "Rainfall": 3.24,
-    "Wind": 4.23
+    "Rainfall": 13,
+    "Wind": 23
   },
   {
     "Id": 57,
@@ -509,8 +509,8 @@ export const defaultData = [
     "Zone": "Semen Omo",
     "Locality, Sub-locality, Area": "Wishaye",
     "Postal Code": 4600,
-    "Rainfall": 7.28,
-    "Wind": 3.96
+    "Rainfall": 25,
+    "Wind": 32
   },
   {
     "Id": 58,
@@ -518,8 +518,8 @@ export const defaultData = [
     "Zone": "Semen Omo",
     "Locality, Sub-locality, Area": "Zanga",
     "Postal Code": 4620,
-    "Rainfall": 7.58,
-    "Wind": 6.26
+    "Rainfall": 95,
+    "Wind": 84
   },
   {
     "Id": 59,
@@ -527,8 +527,8 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "Adi Gudom",
     "Postal Code": 7000,
-    "Rainfall": 4.45,
-    "Wind": 7.27
+    "Rainfall": 4,
+    "Wind": 42
   },
   {
     "Id": 60,
@@ -536,8 +536,8 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "Adi Hana",
     "Postal Code": 7020,
-    "Rainfall": 9.7,
-    "Wind": 3.76
+    "Rainfall": 91,
+    "Wind": 18
   },
   {
     "Id": 61,
@@ -545,8 +545,8 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "Adi K'eyih",
     "Postal Code": 7020,
-    "Rainfall": 3.93,
-    "Wind": 5.91
+    "Rainfall": 1,
+    "Wind": 37
   },
   {
     "Id": 62,
@@ -554,8 +554,8 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "Dara",
     "Postal Code": 7140,
-    "Rainfall": 1.23,
-    "Wind": 1.23
+    "Rainfall": 8,
+    "Wind": 40
   },
   {
     "Id": 63,
@@ -563,8 +563,8 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "K'orbeta",
     "Postal Code": 7020,
-    "Rainfall": 8.03,
-    "Wind": 9.26
+    "Rainfall": 24,
+    "Wind": 54
   },
   {
     "Id": 64,
@@ -572,7 +572,7 @@ export const defaultData = [
     "Zone": "Debubawi",
     "Locality, Sub-locality, Area": "Kwiha",
     "Postal Code": 7000,
-    "Rainfall": 1.1,
-    "Wind": 3.36
+    "Rainfall": 70,
+    "Wind": 56
   }
 ]
