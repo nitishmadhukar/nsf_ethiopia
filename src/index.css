@@ -26,6 +26,11 @@ li {
   color: "white";
 }
 
+#wind,
+#rainfall {
+  text-align: left;
+}
+
 .MuiCardHeader-title {
   color: #0f9015;
 }

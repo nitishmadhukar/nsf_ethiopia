@@ -11,7 +11,7 @@ function App() {
       <div className="App">
       <Container>
         <ThemeProvider theme={darkTheme}>
-          <AppBar position="static" color="primary">
+          <AppBar position="static" color="primary" fullWidth={true}>
           <Toolbar>
             <Typography noWrap variant="h6" component="div">Team Farming</Typography>&nbsp;
             <Typography variant="body" component="div" sx={{ minWidth: 80 }}><Link to="/" className="navlink">About</Link></Typography>

@@ -1,12 +1,13 @@
 import React from 'react';
 import { defaultData } from './defaultData';
 import './App.css';
-import { Container, CircularProgress, Card, CardHeader, CardContent, CardActions, Button, Typography, List, ListItem, ListItemText } from '@mui/material';
+import { Container, CircularProgress, Card, CardHeader, CardContent, CardActions, Button, Typography, List, ListItem, ListItemText, FormControl, InputLabel, Input, FormHelperText, Slider, Grid } from '@mui/material';
+import { Box } from '@mui/system';
 
 class ResultCards extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {results: []}
+        this.state = {results: [], wind: [10, 50], rainfall: [20, 70], postal_codes: ""}
     }
 
     componentDidMount() {
@@ -20,32 +21,51 @@ class ResultCards extends React.Component {
         })
     }
 
-    handleSubmit = () => {
-        alert('Submitted Form')
+    handleSubmit = (e) => {
+        e.preventDefault()
+        //TODO: Need to do an API call to the backend to fetch the results
+        let postal_codes_list = this.state.postal_codes.split(",").map((pc) => pc.trim())
+
+        let results = this.state.results.filter((result) => {
+            return (
+                postal_codes_list.includes(result["Postal Code"].toString()) &&
+                (result["Wind"] >= this.state.wind[0] && result["Wind"] <= this.state.wind[1]) &&
+                (result["Rainfall"] >= this.state.rainfall[0] && result["Rainfall"] <= this.state.rainfall[1])
+            )
+        })
+        this.setState({
+            results: results
+        })
+    }
+
+    handleFormInput = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
     }
 
     render() {
         return (
             <Container>
-                {/* <Form onSubmit={this.handleSubmit} inline>
-                    <FormGroup>
-                            <Label for="postal_code" className='justify-content-lg-left'><strong>Postal Code</strong></Label>
-                            <Input id="postal_code" name="postal_code" placeholder="List of postal codes separated by semi-colon(;)" type="text" />
-                    </FormGroup>
-                    <FormGroup>
-                            <Label for="wind"><strong>Wind</strong></Label>
-                            <Input id="wind" name="wind" type="range" />
-                    </FormGroup>
-                    <FormGroup>
-                            <Label for="rainfall"><strong>Rainfall</strong></Label>
-                            <Input id="rainfall" name="rainfall" type="range" />
-                    </FormGroup>
-                    <Row>
-                        <Col md={3}></Col>
-                        <Col md={6}><Input type="submit" value="Submit" className='btn btn-success'></Input></Col>
-                        <Col md={3}></Col>
-                    </Row>
-                </Form> */}
+                <Box>
+                    <form onSubmit={this.handleSubmit}>
+                        <FormControl fullWidth={true}>
+                            <InputLabel htmlFor="postal_codes">Postal Codes</InputLabel>
+                            <Input id="postal_codes" aria-describedby="postal_codes" name="postal_codes" onChange={this.handleFormInput} />
+                            <FormHelperText id="postal_codes">Provide a list of postal codes separated by comma (,)</FormHelperText>
+                        </FormControl>
+                        <br /><br />
+
+                        <InputLabel htmlFor="wind" id="wind">Wind</InputLabel>
+                        <Slider value={this.state.wind} onChange={this.handleFormInput} valueLabelDisplay="auto" name="wind" />
+                        <br /><br />
+
+                        <InputLabel htmlFor="rainfall" id="rainfall">Rainfall</InputLabel>
+                        <Slider value={this.state.rainfall} onChange={this.handleFormInput} valueLabelDisplay="auto" name="rainfall" />
+                        <br /><br />
+                        <Button variant="contained" color="success" type="submit">Search</Button>
+                    </form>
+                </Box>
                 <hr />
                 {this.state.results.length === 0 ? <CircularProgress /> :
                    this.state.results.map((item) => {
